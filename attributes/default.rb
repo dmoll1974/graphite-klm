@@ -1,9 +1,9 @@
 override['graphite']['timezone'] = "Africa/Accra"
 override['graphite']['storage_schemas'] = [
   {
-    'name' => 'everything_30s7d_15m1m',
+    'name' => 'bla',
     'match-all' => true,
-    'retentions' => '15s:30d,300s:90d'
+    'retentions' => '1s:30d,60s:90d'
   }
 ]
 override['graphite']['carbon']['enable_udp_listener'] = "True"
