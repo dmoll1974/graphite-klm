@@ -1,4 +1,4 @@
-override['graphite']['timezone'] = "Africa/Accra"
+override['graphite']['timezone'] = "UTC"
 override['graphite']['storage_schemas'] = [
   {
     'name' => 'bla',
